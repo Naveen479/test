@@ -6,7 +6,6 @@ pipeline {
     stage('Test') {
       steps {
         sh '''
-          sudo apt update -y
           ls -al
           pwd
           
